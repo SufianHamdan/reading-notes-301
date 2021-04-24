@@ -54,7 +54,7 @@ ReactDOM.render(
 You can put any valid JavaScript expression inside the curly braces in JSX. For example, 2 + 2, user.firstName, or formatName(user) are all valid JavaScript expressions.
 
 
-In the example below, we embed the result of calling a JavaScript function, formatName(user), into an <h1> element.
+In the example below, we embed the result of calling a JavaScript function, formatName(user), into an `<h1>` element.
 
 ```js
 function formatName(user) {
