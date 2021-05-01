@@ -2,14 +2,14 @@
 
 ### lists & keys:
 
-* map() ----> loop on the array and return output array with the same length of the input array.(the same number of values in the input array).
+* The map() method creates a new array with the results of calling a function for every array element..
+The map() method calls the provided function once for each element in an array, in order.
 
-* To loop through an array and display each value we can use map().
-by doing this (arr.map(item =>{console.log(item);})
+* To loop through an array and display each value we can use map(). by doing this (arr.map(value =>{return newArr;})
 
 * In the list item, each list needs a unique key(id).
 
-* The key purpose is to specify the changing or adding or removing items in the array.by giving it a unique id.
+* The key purpose is to specify the changing or adding or removing items in the array. by giving it a unique id.
 
 **********************************************************************************************************************
 
@@ -32,13 +32,13 @@ array3 ---> ['a','b','c','m','n','o']
 
 *************************************************************************************************
 
-* let numArr =[2,4,8]
+* let numArr =[2, 4, 8]
 
    let newNum = 6
 
    numArr =[...numArr, newNum]
 
-* output -----> numArr = [2,4,8,6]
+* output -----> numArr = [2, 4, 8, 6]
 
 **************************************************************************************************
 * let student ={
