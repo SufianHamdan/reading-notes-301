@@ -42,12 +42,12 @@ array3 ---> ['a','b','c','m','n','o']
 
 **************************************************************************************************
 * let student ={
-    name:'Sukina',
-    age:31
+    name:'Sufian',
+    age:40
 };
 
 let studentStudy ={
-    study:'Engineering',
+    study:'Software Engineering',
     place:'LTUC'
 };
 
@@ -57,9 +57,9 @@ let studentInfo = {
 };
 
  * the output ------> studentInfo ={
-     name:'Sukina',
+     name:'Sufian',
     age:31,
-    study:'Engineering',
+    study:'Software Engineering',
     place:'LTUC'
  }
 
